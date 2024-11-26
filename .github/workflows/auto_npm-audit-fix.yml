@@ -3,6 +3,7 @@ name: FUDGE Automatic npm audit fix
 on:
   schedule:
     - cron: '0 4 * * *'
+  workflow_dispatch:
 
 jobs:
   build-and-audit:
